@@ -1,0 +1,143 @@
+2026-10-06 12:11:53 | INFO | Model: linear_regression
+2026-10-06 12:11:54 | INFO | linear_regression | RMSE: 0.1512 | R2: 0.8400 | STD: 0.0416
+2026-10-06 12:11:54 | INFO | Model: ridge
+2026-10-06 12:11:54 | INFO | ridge | RMSE: 0.1465 | R2: 0.8486 | STD: 0.0404
+2026-10-06 12:11:54 | INFO | Model: lasso
+2026-10-06 12:11:56 | INFO | lasso | RMSE: 0.1415 | R2: 0.8566 | STD: 0.0427
+2026-10-06 12:11:56 | INFO | Model: elasticnet
+2026-10-06 12:11:58 | INFO | elasticnet | RMSE: 0.1415 | R2: 0.8565 | STD: 0.0428
+2026-10-06 12:11:58 | INFO | Model: knn
+2026-10-06 12:12:01 | INFO | knn | RMSE: 0.1626 | R2: 0.8331 | STD: 0.0154
+2026-10-06 12:12:01 | INFO | Model: decision_tree
+2026-10-06 12:12:01 | INFO | decision_tree | RMSE: 0.1812 | R2: 0.7901 | STD: 0.0122
+2026-10-06 12:12:01 | INFO | Model: random_forest
+2026-10-06 12:17:22 | INFO | random_forest | RMSE: 0.1424 | R2: 0.8683 | STD: 0.0184
+2026-10-06 12:17:22 | INFO | Model: catboost
+2026-10-06 12:59:57 | INFO | catboost | RMSE: 0.1226 | R2: 0.9028 | STD: 0.0148
+2026-10-06 12:59:57 | INFO | Model: lightgbm
+2026-10-06 12:59:59 | INFO | lightgbm | RMSE: 0.1317 | R2: 0.8874 | STD: 0.0169
+2026-10-06 12:59:59 | INFO | Model: xgboost
+2026-10-06 13:00:04 | INFO | xgboost | RMSE: 0.1235 | R2: 0.9003 | STD: 0.0176
+2026-10-06 13:00:04 | INFO | Model: catboost_onehot
+2026-10-06 13:07:45 | INFO | catboost_onehot | RMSE: 0.1224 | R2: 0.9027 | STD: 0.0163
+2026-10-06 13:07:45 | INFO | Model: voting_regressor
+2026-10-06 13:20:44 | INFO | voting_regressor | RMSE: 0.1244 | R2: 0.8973 | STD: 0.0223
+2026-10-06 13:20:44 | INFO | Model: boosting_voting_regressor
+2026-10-06 13:29:50 | INFO | boosting_voting_regressor | RMSE: 0.1225 | R2: 0.9021 | STD: 0.0173
+2026-10-06 13:29:50 | INFO | Model: stacking_regressor
+2026-10-06 14:15:53 | INFO | stacking_regressor | RMSE: 0.1233 | R2: 0.9013 | STD: 0.0169
+2026-10-06 14:15:53 | INFO | Model: dnn
+2026-10-06 14:15:53 | INFO | DNN Fold 1/5
+2026-10-06 14:16:03 | INFO | Epoch 10/200 | Train Loss: 0.0146 | Val Loss: 0.0172 | LR: 0.000995
+2026-10-06 14:16:07 | INFO | Epoch 20/200 | Train Loss: 0.0100 | Val Loss: 0.0163 | LR: 0.000978
+2026-10-06 14:16:11 | INFO | Epoch 30/200 | Train Loss: 0.0094 | Val Loss: 0.0161 | LR: 0.000950
+2026-10-06 14:16:15 | INFO | Epoch 40/200 | Train Loss: 0.0097 | Val Loss: 0.0169 | LR: 0.000910
+2026-10-06 14:16:20 | INFO | Epoch 50/200 | Train Loss: 0.0102 | Val Loss: 0.0190 | LR: 0.000860
+2026-10-06 14:16:23 | INFO | Epoch 60/200 | Train Loss: 0.0117 | Val Loss: 0.0233 | LR: 0.000802
+2026-10-06 14:16:28 | INFO | Epoch 70/200 | Train Loss: 0.0087 | Val Loss: 0.0189 | LR: 0.000737
+2026-10-06 14:16:32 | INFO | Epoch 80/200 | Train Loss: 0.0141 | Val Loss: 0.0198 | LR: 0.000665
+2026-10-06 14:16:36 | INFO | Epoch 90/200 | Train Loss: 0.0076 | Val Loss: 0.0190 | LR: 0.000590
+2026-10-06 14:16:40 | INFO | Epoch 100/200 | Train Loss: 0.0050 | Val Loss: 0.0206 | LR: 0.000513
+2026-10-06 14:16:44 | INFO | Epoch 110/200 | Train Loss: 0.0047 | Val Loss: 0.0191 | LR: 0.000435
+2026-10-06 14:16:48 | INFO | Epoch 120/200 | Train Loss: 0.0044 | Val Loss: 0.0197 | LR: 0.000359
+2026-10-06 14:16:52 | INFO | Epoch 130/200 | Train Loss: 0.0030 | Val Loss: 0.0193 | LR: 0.000287
+2026-10-06 14:16:57 | INFO | Epoch 140/200 | Train Loss: 0.0030 | Val Loss: 0.0203 | LR: 0.000220
+2026-10-06 14:17:01 | INFO | Epoch 150/200 | Train Loss: 0.0021 | Val Loss: 0.0205 | LR: 0.000161
+2026-10-06 14:17:05 | INFO | Epoch 160/200 | Train Loss: 0.0019 | Val Loss: 0.0194 | LR: 0.000109
+2026-10-06 14:17:10 | INFO | Epoch 170/200 | Train Loss: 0.0017 | Val Loss: 0.0197 | LR: 0.000068
+2026-10-06 14:17:14 | INFO | Epoch 180/200 | Train Loss: 0.0015 | Val Loss: 0.0200 | LR: 0.000037
+2026-10-06 14:17:18 | INFO | Epoch 190/200 | Train Loss: 0.0014 | Val Loss: 0.0198 | LR: 0.000017
+2026-10-06 14:17:22 | INFO | Epoch 200/200 | Train Loss: 0.0013 | Val Loss: 0.0199 | LR: 0.000010
+2026-10-06 14:17:22 | INFO | Fold 1 | RMSE: 0.1259 | R2: 0.9151
+2026-10-06 14:17:22 | INFO | DNN Fold 2/5
+2026-10-06 14:17:28 | INFO | Epoch 10/200 | Train Loss: 0.0136 | Val Loss: 0.0194 | LR: 0.000995
+2026-10-06 14:17:32 | INFO | Epoch 20/200 | Train Loss: 0.0101 | Val Loss: 0.0200 | LR: 0.000978
+2026-10-06 14:17:36 | INFO | Epoch 30/200 | Train Loss: 0.0111 | Val Loss: 0.0250 | LR: 0.000950
+2026-10-06 14:17:41 | INFO | Epoch 40/200 | Train Loss: 0.0095 | Val Loss: 0.0189 | LR: 0.000910
+2026-10-06 14:17:45 | INFO | Epoch 50/200 | Train Loss: 0.0104 | Val Loss: 0.0188 | LR: 0.000860
+2026-10-06 14:17:49 | INFO | Epoch 60/200 | Train Loss: 0.0214 | Val Loss: 0.0236 | LR: 0.000802
+2026-10-06 14:17:53 | INFO | Epoch 70/200 | Train Loss: 0.0081 | Val Loss: 0.0221 | LR: 0.000737
+2026-10-06 14:17:57 | INFO | Epoch 80/200 | Train Loss: 0.0076 | Val Loss: 0.0231 | LR: 0.000665
+2026-10-06 14:18:02 | INFO | Epoch 90/200 | Train Loss: 0.0073 | Val Loss: 0.0195 | LR: 0.000590
+2026-10-06 14:18:06 | INFO | Epoch 100/200 | Train Loss: 0.0069 | Val Loss: 0.0226 | LR: 0.000513
+2026-10-06 14:18:10 | INFO | Epoch 110/200 | Train Loss: 0.0051 | Val Loss: 0.0229 | LR: 0.000435
+2026-10-06 14:18:14 | INFO | Epoch 120/200 | Train Loss: 0.0039 | Val Loss: 0.0186 | LR: 0.000359
+2026-10-06 14:18:19 | INFO | Epoch 130/200 | Train Loss: 0.0031 | Val Loss: 0.0208 | LR: 0.000287
+2026-10-06 14:18:23 | INFO | Epoch 140/200 | Train Loss: 0.0026 | Val Loss: 0.0201 | LR: 0.000220
+2026-10-06 14:18:27 | INFO | Epoch 150/200 | Train Loss: 0.0023 | Val Loss: 0.0212 | LR: 0.000161
+2026-10-06 14:18:32 | INFO | Epoch 160/200 | Train Loss: 0.0019 | Val Loss: 0.0210 | LR: 0.000109
+2026-10-06 14:18:36 | INFO | Epoch 170/200 | Train Loss: 0.0017 | Val Loss: 0.0214 | LR: 0.000068
+2026-10-06 14:18:40 | INFO | Epoch 180/200 | Train Loss: 0.0015 | Val Loss: 0.0212 | LR: 0.000037
+2026-10-06 14:18:44 | INFO | Epoch 190/200 | Train Loss: 0.0014 | Val Loss: 0.0216 | LR: 0.000017
+2026-10-06 14:18:48 | INFO | Epoch 200/200 | Train Loss: 0.0014 | Val Loss: 0.0216 | LR: 0.000010
+2026-10-06 14:18:48 | INFO | Fold 2 | RMSE: 0.1262 | R2: 0.8975
+2026-10-06 14:18:48 | INFO | DNN Fold 3/5
+2026-10-06 14:18:52 | INFO | Epoch 10/200 | Train Loss: 0.0123 | Val Loss: 0.0522 | LR: 0.000995
+2026-10-06 14:18:57 | INFO | Epoch 20/200 | Train Loss: 0.0091 | Val Loss: 0.0478 | LR: 0.000978
+2026-10-06 14:19:01 | INFO | Epoch 30/200 | Train Loss: 0.0096 | Val Loss: 0.0432 | LR: 0.000950
+2026-10-06 14:19:05 | INFO | Epoch 40/200 | Train Loss: 0.0096 | Val Loss: 0.0454 | LR: 0.000910
+2026-10-06 14:19:09 | INFO | Epoch 50/200 | Train Loss: 0.0103 | Val Loss: 0.0517 | LR: 0.000860
+2026-10-06 14:19:13 | INFO | Epoch 60/200 | Train Loss: 0.0102 | Val Loss: 0.0414 | LR: 0.000802
+2026-10-06 14:19:18 | INFO | Epoch 70/200 | Train Loss: 0.0075 | Val Loss: 0.0448 | LR: 0.000737
+2026-10-06 14:19:22 | INFO | Epoch 80/200 | Train Loss: 0.0065 | Val Loss: 0.0386 | LR: 0.000665
+2026-10-06 14:19:26 | INFO | Epoch 90/200 | Train Loss: 0.0059 | Val Loss: 0.0423 | LR: 0.000590
+2026-10-06 14:19:31 | INFO | Epoch 100/200 | Train Loss: 0.0059 | Val Loss: 0.0499 | LR: 0.000513
+2026-10-06 14:19:34 | INFO | Epoch 110/200 | Train Loss: 0.0041 | Val Loss: 0.0415 | LR: 0.000435
+2026-10-06 14:19:39 | INFO | Epoch 120/200 | Train Loss: 0.0038 | Val Loss: 0.0458 | LR: 0.000359
+2026-10-06 14:19:43 | INFO | Epoch 130/200 | Train Loss: 0.0030 | Val Loss: 0.0401 | LR: 0.000287
+2026-10-06 14:19:48 | INFO | Epoch 140/200 | Train Loss: 0.0025 | Val Loss: 0.0428 | LR: 0.000220
+2026-10-06 14:19:52 | INFO | Epoch 150/200 | Train Loss: 0.0020 | Val Loss: 0.0405 | LR: 0.000161
+2026-10-06 14:19:56 | INFO | Epoch 160/200 | Train Loss: 0.0019 | Val Loss: 0.0411 | LR: 0.000109
+2026-10-06 14:20:01 | INFO | Epoch 170/200 | Train Loss: 0.0015 | Val Loss: 0.0407 | LR: 0.000068
+2026-10-06 14:20:05 | INFO | Epoch 180/200 | Train Loss: 0.0014 | Val Loss: 0.0414 | LR: 0.000037
+2026-10-06 14:20:09 | INFO | Epoch 190/200 | Train Loss: 0.0013 | Val Loss: 0.0414 | LR: 0.000017
+2026-10-06 14:20:13 | INFO | Epoch 200/200 | Train Loss: 0.0012 | Val Loss: 0.0413 | LR: 0.000010
+2026-10-06 14:20:13 | INFO | Fold 3 | RMSE: 0.1870 | R2: 0.7518
+2026-10-06 14:20:13 | INFO | DNN Fold 4/5
+2026-10-06 14:20:19 | INFO | Epoch 10/200 | Train Loss: 0.0136 | Val Loss: 0.0273 | LR: 0.000995
+2026-10-06 14:20:23 | INFO | Epoch 20/200 | Train Loss: 0.0094 | Val Loss: 0.0222 | LR: 0.000978
+2026-10-06 14:20:28 | INFO | Epoch 30/200 | Train Loss: 0.0096 | Val Loss: 0.0205 | LR: 0.000950
+2026-10-06 14:20:32 | INFO | Epoch 40/200 | Train Loss: 0.0104 | Val Loss: 0.0261 | LR: 0.000910
+2026-10-06 14:20:36 | INFO | Epoch 50/200 | Train Loss: 0.0111 | Val Loss: 0.0218 | LR: 0.000860
+2026-10-06 14:20:40 | INFO | Epoch 60/200 | Train Loss: 0.0109 | Val Loss: 0.0208 | LR: 0.000802
+2026-10-06 14:20:43 | INFO | Epoch 70/200 | Train Loss: 0.0094 | Val Loss: 0.0234 | LR: 0.000737
+2026-10-06 14:20:48 | INFO | Epoch 80/200 | Train Loss: 0.0080 | Val Loss: 0.0216 | LR: 0.000665
+2026-10-06 14:20:52 | INFO | Epoch 90/200 | Train Loss: 0.0069 | Val Loss: 0.0226 | LR: 0.000590
+2026-10-06 14:20:55 | INFO | Epoch 100/200 | Train Loss: 0.0074 | Val Loss: 0.0230 | LR: 0.000513
+2026-10-06 14:20:59 | INFO | Epoch 110/200 | Train Loss: 0.0049 | Val Loss: 0.0257 | LR: 0.000435
+2026-10-06 14:21:03 | INFO | Epoch 120/200 | Train Loss: 0.0041 | Val Loss: 0.0237 | LR: 0.000359
+2026-10-06 14:21:07 | INFO | Epoch 130/200 | Train Loss: 0.0032 | Val Loss: 0.0247 | LR: 0.000287
+2026-10-06 14:21:11 | INFO | Epoch 140/200 | Train Loss: 0.0026 | Val Loss: 0.0254 | LR: 0.000220
+2026-10-06 14:21:15 | INFO | Epoch 150/200 | Train Loss: 0.0022 | Val Loss: 0.0253 | LR: 0.000161
+2026-10-06 14:21:19 | INFO | Epoch 160/200 | Train Loss: 0.0019 | Val Loss: 0.0254 | LR: 0.000109
+2026-10-06 14:21:23 | INFO | Epoch 170/200 | Train Loss: 0.0017 | Val Loss: 0.0259 | LR: 0.000068
+2026-10-06 14:21:28 | INFO | Epoch 180/200 | Train Loss: 0.0015 | Val Loss: 0.0259 | LR: 0.000037
+2026-10-06 14:21:32 | INFO | Epoch 190/200 | Train Loss: 0.0015 | Val Loss: 0.0262 | LR: 0.000017
+2026-10-06 14:21:36 | INFO | Epoch 200/200 | Train Loss: 0.0014 | Val Loss: 0.0260 | LR: 0.000010
+2026-10-06 14:21:36 | INFO | Fold 4 | RMSE: 0.1410 | R2: 0.8876
+2026-10-06 14:21:36 | INFO | DNN Fold 5/5
+2026-10-06 14:21:40 | INFO | Epoch 10/200 | Train Loss: 0.0152 | Val Loss: 0.0177 | LR: 0.000995
+2026-10-06 14:21:44 | INFO | Epoch 20/200 | Train Loss: 0.0112 | Val Loss: 0.0147 | LR: 0.000978
+2026-10-06 14:21:50 | INFO | Epoch 30/200 | Train Loss: 0.0117 | Val Loss: 0.0160 | LR: 0.000950
+2026-10-06 14:21:54 | INFO | Epoch 40/200 | Train Loss: 0.0103 | Val Loss: 0.0188 | LR: 0.000910
+2026-10-06 14:21:58 | INFO | Epoch 50/200 | Train Loss: 0.0127 | Val Loss: 0.0206 | LR: 0.000860
+2026-10-06 14:22:02 | INFO | Epoch 60/200 | Train Loss: 0.0101 | Val Loss: 0.0152 | LR: 0.000802
+2026-10-06 14:22:07 | INFO | Epoch 70/200 | Train Loss: 0.0137 | Val Loss: 0.0157 | LR: 0.000737
+2026-10-06 14:22:11 | INFO | Epoch 80/200 | Train Loss: 0.0103 | Val Loss: 0.0185 | LR: 0.000665
+2026-10-06 14:22:15 | INFO | Epoch 90/200 | Train Loss: 0.0064 | Val Loss: 0.0178 | LR: 0.000590
+2026-10-06 14:22:20 | INFO | Epoch 100/200 | Train Loss: 0.0059 | Val Loss: 0.0164 | LR: 0.000513
+2026-10-06 14:22:24 | INFO | Epoch 110/200 | Train Loss: 0.0054 | Val Loss: 0.0193 | LR: 0.000435
+2026-10-06 14:22:28 | INFO | Epoch 120/200 | Train Loss: 0.0043 | Val Loss: 0.0199 | LR: 0.000359
+2026-10-06 14:22:32 | INFO | Epoch 130/200 | Train Loss: 0.0035 | Val Loss: 0.0186 | LR: 0.000287
+2026-10-06 14:22:37 | INFO | Epoch 140/200 | Train Loss: 0.0028 | Val Loss: 0.0190 | LR: 0.000220
+2026-10-06 14:22:41 | INFO | Epoch 150/200 | Train Loss: 0.0025 | Val Loss: 0.0187 | LR: 0.000161
+2026-10-06 14:22:46 | INFO | Epoch 160/200 | Train Loss: 0.0019 | Val Loss: 0.0184 | LR: 0.000109
+2026-10-06 14:22:50 | INFO | Epoch 170/200 | Train Loss: 0.0018 | Val Loss: 0.0185 | LR: 0.000068
+2026-10-06 14:22:55 | INFO | Epoch 180/200 | Train Loss: 0.0016 | Val Loss: 0.0191 | LR: 0.000037
+2026-10-06 14:22:59 | INFO | Epoch 190/200 | Train Loss: 0.0015 | Val Loss: 0.0190 | LR: 0.000017
+2026-10-06 14:23:02 | INFO | Epoch 200/200 | Train Loss: 0.0015 | Val Loss: 0.0190 | LR: 0.000010
+2026-10-06 14:23:02 | INFO | Fold 5 | RMSE: 0.1137 | R2: 0.9047
+2026-10-06 14:23:02 | INFO | DNN CV | Mean RMSE: 0.1388 | Mean R2: 0.8713 | STD: 0.0256
+2026-10-06 14:23:02 | INFO | dnn | RMSE: 0.1388 | R2: 0.8713 | STD: 0.0256
+2026-10-06 14:23:02 | INFO | Final model: catboost_onehot
+2026-10-06 14:24:05 | INFO | Submission saved to: C:\ML PROJECTS\HousePrices\HousePricesProject\outputs\submission.csv
